@@ -107,10 +107,7 @@ function reparseLines(){
 	}
 }
 
-// each point is 2 angles in half turns
-// a, x[-1,1] = vertical circle
-// x[-1,1], .5 = equator
-// x[-1,1], a = parallel cirles at a
+
 var lines = [
 	// africa main continent
 	[
