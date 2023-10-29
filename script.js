@@ -34,7 +34,7 @@ function anim(){
 	ctx.fillStyle = '#111';
 	ctx.fillRect( 0, 0, s, s );
 	
-	ctx.strokeStyle = '#2b2';
+	ctx.strokeStyle = 'pink';
 	
 	ctx.beginPath();
 	
@@ -109,7 +109,6 @@ function reparseLines(){
 
 
 var lines = [
-	// africa main continent
 	[
 		-.04, -.05,
 		.01, -.05,
@@ -193,7 +192,7 @@ deCanvas.className =  'debug-canvas';
 
 document.body.appendChild( deCanvas );
 
-deCtx.strokeStyle = 'green';
+deCtx.strokeStyle = 'pink';
 deCtx.lineWidth = 3;
 deCtx.beginPath();
 
