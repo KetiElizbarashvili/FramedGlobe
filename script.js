@@ -34,7 +34,7 @@ function anim(){
 	ctx.fillStyle = '#111';
 	ctx.fillRect( 0, 0, s, s );
 	
-	ctx.strokeStyle = 'pink';
+	ctx.strokeStyle = 'red';
 	
 	ctx.beginPath();
 	
